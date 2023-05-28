@@ -9,12 +9,17 @@
 
 class NListGraph : public Graph{
 private:
+    bool _verbose = true;
     int _nodes, _edges;
     NList **_neighbours;
     KruskalHelper *kruskalHelper;
 public:
+    NListGraph(int nodes, bool verbose);
+    NListGraph(int nodes);
+    int getNodesCount() override;
+    bool isConnected() override;
+    bool edgeExists(int v1, int v2) override;
 
-    NListGraph(int nodes, int edges);
     virtual ~NListGraph();
 
     void addEdge(int v1, int v2, int weight) override;
@@ -27,9 +32,6 @@ public:
     // MST
     void kruskal() override;
     void prim(int startingVerticle) override;
-
-    // max flow
-    void fordFulkerson(int startingVerticle) override;
 };
 
 

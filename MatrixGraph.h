@@ -10,32 +10,28 @@
 
 class MatrixGraph : public Graph {
 private:
-    int _nodes, _edges;
-    int **_innerMatrix;     //dwuwymiarowa tablica
+    bool _verbose = true;
+    int _nodes, _edges = 0;
+    int **_innerMatrix; // dwuwymiarowa tablica
     KruskalHelper *kruskalHelper;
 public:
-
-    MatrixGraph(int nodes, int edges);
+    MatrixGraph(int nodes, bool verbose);
+    MatrixGraph(int nodes);
+    MatrixGraph(int nodes, bool verbose, int **innerMatrix);
+    bool isConnected() override;
+    int getNodesCount() override;
+    bool edgeExists(int v1, int v2) override;
 
     virtual ~MatrixGraph();
 
     void addEdge(int v1, int v2, int weight) override;
-
     void print() override;
 
-    // route
     void dijkstra(int startingVerticle) override;
-
     void bellmanFord(int startingVerticle) override;
 
-    // MST
     void kruskal() override;
-
     void prim(int x) override;
-
-    // max flow
-    void fordFulkerson(int startingVerticle) override;
-
 };
 
 

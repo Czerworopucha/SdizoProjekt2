@@ -10,7 +10,7 @@ KruskalHelper::~KruskalHelper() {
     delete[] group;
 }
 
-void KruskalHelper::findMST(Heap *edges) {
+void KruskalHelper::findMST(Heap *edges, bool verbose) {
     auto result = new ArrayList();
     int weightSum = 0;
     makeSet();
@@ -25,6 +25,7 @@ void KruskalHelper::findMST(Heap *edges) {
         }
     }
 
+    if(!verbose) return;
     std::cout << "\n\n Sum of weights: " << weightSum << "\n";
     for (int i = 0; i < result->size; i++) {
         std::cout << " " << result->getElementAt(i)->v1 << " -> " << result->getElementAt(i)->v2 << " : "

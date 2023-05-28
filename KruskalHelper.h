@@ -14,7 +14,7 @@ private:
 public:
     KruskalHelper(int nodes);
     ~KruskalHelper();
-    void findMST(Heap *edges);
+    void findMST(Heap *edges, bool verbose);
 };
 
 

@@ -1,0 +1,25 @@
+# ninja log v5
+17	1360	7069678190318978	CMakeFiles/SdizoProjekt2.dir/ArrayList.cpp.obj	959a0845dd0e838f
+6	1730	7069678193958894	CMakeFiles/SdizoProjekt2.dir/FileReader.cpp.obj	e3fe00d4fa8d0d31
+0	1765	7069678194329907	CMakeFiles/SdizoProjekt2.dir/main.cpp.obj	dd92350af207b88c
+1766	2907	7069678205803938	CMakeFiles/SdizoProjekt2.dir/LinkedList.cpp.obj	da68de87d6b5e7d
+1365	3021	7069678206945059	CMakeFiles/SdizoProjekt2.dir/NListGraph.cpp.obj	43cd388c836ffc0a
+1732	3334	7069678210047877	CMakeFiles/SdizoProjekt2.dir/MatrixGraph.cpp.obj	cc93d6e85f6a33db
+3335	3988	7069678216578780	CMakeFiles/SdizoProjekt2.dir/TabUtils.cpp.obj	601f86eef5f3d33b
+3021	3996	7069678216578780	CMakeFiles/SdizoProjekt2.dir/Heap.cpp.obj	b8eebb1f102d7a4f
+2907	4325	7069678219936986	CMakeFiles/SdizoProjekt2.dir/DList.cpp.obj	e03d435f1b60c05d
+4326	5015	7069678226858190	CMakeFiles/SdizoProjekt2.dir/KruskalHelper.cpp.obj	67ed4fc69e7bd04c
+3989	5178	7069678228505166	CMakeFiles/SdizoProjekt2.dir/NList.cpp.obj	d5dbf76c9930d9f1
+5016	6618	7069678242912333	CMakeFiles/SdizoProjekt2.dir/Generator.cpp.obj	5afd3c6b1582951d
+3997	6941	7069678246112801	CMakeFiles/SdizoProjekt2.dir/Timer.cpp.obj	4f3443848e993a3a
+6618	7649	7069678253227415	CMakeFiles/SdizoProjekt2.dir/WriteToFile.cpp.obj	bb46970ee8328198
+5178	8626	7069678263006195	CMakeFiles/SdizoProjekt2.dir/Tests.cpp.obj	14d1ba63838c1a46
+8627	9280	7069678269455535	SdizoProjekt2.exe	d7ef5ae575dfc67d
+11	1089	7069678631280852	CMakeFiles/SdizoProjekt2.dir/main.cpp.obj	dd92350af207b88c
+1089	1854	7069678638688811	SdizoProjekt2.exe	d7ef5ae575dfc67d
+7	1019	7069679307537156	CMakeFiles/SdizoProjekt2.dir/main.cpp.obj	dd92350af207b88c
+1020	1726	7069679314498899	SdizoProjekt2.exe	d7ef5ae575dfc67d
+6	1261	7069688798329671	CMakeFiles/SdizoProjekt2.dir/MatrixGraph.cpp.obj	cc93d6e85f6a33db
+1262	2123	7069688806851491	SdizoProjekt2.exe	d7ef5ae575dfc67d
+10	937	7069693118087311	CMakeFiles/SdizoProjekt2.dir/main.cpp.obj	dd92350af207b88c
+938	1900	7069693127611293	SdizoProjekt2.exe	d7ef5ae575dfc67d
